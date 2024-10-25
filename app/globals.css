@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@layer components {
+  .platformcarddesctext {
+    @apply text-black text-[32px] leading-[120%] tracking-[-.04em]
+  }
+
+  .platformcardmaintext {
+    @apply text-[85px] text-black leading-[.9em] tracking-[-.04em]
+  }
+
+  .animtextparent {
+    @apply border-[1.5px] border-[rgb(245_0_50)] hover:bg-[rgb(245_0_50)] border-solid bg-black flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-[40px] overflow-visible px-[14px] py-[12px] relative no-underline w-min opacity-100 rounded-[8px]
+  }
+
+  .animtext {
+    @apply text-[18px] font-normal tracking-[-.01em] leading-[90%] text-white
+  }
+
+  .productsbg {
+    background-image: url("/productsbg.svg");
+  }
+}
