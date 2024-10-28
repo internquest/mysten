@@ -26,6 +26,14 @@ body {
     @apply text-black text-[32px] leading-[120%] tracking-[-.04em]
   }
 
+  .careerhowcardheading {
+    @apply b12t14:text-[40px] b12t14:leading-[100%] font-normal b12t14:tracking-[-.03em] text-[#000]
+  }
+
+  .careerhowcarddesc {
+    @apply b12t14:text-[24px] b12t14:leading-[120%] font-normal b12t14:tracking-[-.03em] text-[#000]
+  }
+
   .platformcardmaintext {
     @apply text-[85px] text-black leading-[.9em] tracking-[-.04em]
   }
@@ -41,4 +49,57 @@ body {
   .productsbg {
     background-image: url("/productsbg.svg");
   }
+
+  .sectiontitle {
+    @apply b81t1199:text-[16px] text-[24px] font-normal tracking-[.02em] leading-[120%] uppercase text-[#f50032]
+  }
+
+  .sectiondesc {
+    @apply t809:text-[24px] b81t1199:text-[32px] b12t14:text-[50px] text-[55px] font-normal tracking-[-.04em] leading-[1em] text-black
+  }
+
+  .latestcardtitle {
+    @apply t1199:text-[21px] text-[26px] font-normal tracking-[-.03em] leading-[100%] text-black group-hover:text-[#f50032]
+  }
+
+  .prodductscarddesc {
+    @apply text-[16px] t809:text-[20px] tracking-[-.04em] leading-[120%] text-black font-mystenWalteralteregular
+  }
+
+  .latestcarddate {
+    @apply text-[16px] font-normal tracking-[-.03em] leading-[90%] text-black
+  }
+
+  .footerlinktext {
+    @apply text-[24px] font-normal tracking-[-.03em] leading-[110%] text-black hover:text-white
+  }
+
+  .interviwescardtitle {
+    @apply b12t14:text-[26px] text-[32px] font-normal tracking-[-.03em] leading-[110%] text-black
+  }
+
+
+  .interviwescarddesc {
+    @apply text-[18px] font-normal tracking-[-.03em] leading-[1.2em] text-black
+  }
+
+  .careeraccordianque {
+    @apply text-[18px] font-normal tracking-[-.03em] leading-[1.2em] text-black
+  }
+
+  .careeraccordiandesc {
+    @apply text-[18px] font-normal tracking-[-.03em] leading-[1.2em] text-black
+  }
+
+  .aboutfoundername {
+    @apply text-[32px] tracking-[-.04em] leading-[120%] text-black group-hover:text-[#f50032]
+  }
+
+  .aboutfounderdesig {
+    @apply text-black tracking-[-.03em] leading-[90%] text-[16px] group-hover:text-[#f50032]
+  }
+
+  /* .intervieewcardlink {
+    @apply text-[18px] font-normal tracking-[-.03em] leading-[1.2em] text-[#f50032]
+  } */
 }
