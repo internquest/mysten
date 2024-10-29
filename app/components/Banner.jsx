@@ -9,24 +9,24 @@ const Banner = () => {
     const cards = [
         {
             question: 'Inside Mysten Labs',
-            mainfirst: 'Start over. ',
-            mainsec: 'Build better.',
+            mainfirst: 'Start over. Build better ',
+
             desc: 'The future of the internet is still unknown.  Let’s write its next chapter together.',
             buttondesc: 'View Research & Development',
         },
         {
             question: 'Web3 Enthusiast?',
-            mainfirst: 'Check our  ',
-            mainsec: 'products',
+            mainfirst: 'Check our Build better ',
+
             desc: 'Our products are made for builders, web3 enthusiasts, and explorers of new interactive models',
             buttondesc: 'View Products',
         },
         {
             question: 'Web3 Enthusiast?',
-            mainfirst: 'Check our  ',
-            mainsec: 'products',
+            mainfirst: 'Check our Build better ',
+
             desc: 'Our products are made for builders, web3 enthusiasts, and explorers of new interactive models',
-            buttondesc: 'View Products',
+            buttondesc: 'View Products Build better',
         },
 
     ]
@@ -44,9 +44,9 @@ const Banner = () => {
                         <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 opacity-100 transform-none">
                             <p class=" t809:text-[40px] font-mystenwalteraltebold b81t1199:text-[85px] text-[90px] font-normal text-white tracking-[-.03em] leading-[90%] text-start">{cards[cardnum - 1].mainfirst}</p>
                         </div>
-                        <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 opacity-100 transform-none">
+                        {/* <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 opacity-100 transform-none">
                             <p class="t809:text-[40px] font-mystenwalteraltebold b81t1199:text-[85px] text-[90px] font-normal text-white tracking-[-.03em] leading-[90%] text-start">{cards[cardnum - 1].mainsec}</p>
-                        </div>
+                        </div> */}
                         <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 opacity-100 transform-none">
                             <p class="text-white font-mystenWalteralteregular text-[18px] leading-[120%] tracking-[-.03em] ">{cards[cardnum - 1].desc}</p>
                         </div>

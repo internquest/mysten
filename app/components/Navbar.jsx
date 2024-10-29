@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
         <div className={`flex-none h-[65px] sticky top-0 w-full  z-[10] font-fragmentmono`}>
-            <div className={` items-center flex flex-[1_0_0px]  h-[65px] overflow-visible pt-[4px] pr-[10px] pb-0 pl-[20px] relative w-full backdrop-filter backdrop-blur-[15px] ${pathname === '/' || '/careers' && ' bg-[rgba(0,_0,_0,_0.85)] '} ${pathname === '/platforms-and-protocols' && ' bg-[rgba(255,_255,_255,_0.95)]'} opacity-100 transform-none rounded-tl-none rounded-tr-none`}>
+            <div className={` items-center flex flex-[1_0_0px]  h-[65px] overflow-visible pt-[4px] pr-[10px] pb-0 pl-[20px] relative w-full backdrop-filter backdrop-blur-[15px]  ${pathname === '/platforms-and-protocols' ? ' bg-[rgba(255,_255,_255,_0.95)]' : 'bg-[rgba(0,_0,_0,_0.85)]'} opacity-100 transform-none rounded-tl-none rounded-tr-none`}>
                 <div className=" items-center flex flex-[1_0_0px] justify-between  h-min overflow-visible p-0 relative w-px opacity-100">
                     <div className=" flex-none h-[25px] z-[1] relative w-[209px] opacity-100">
                         <a data-framer-name="Desktop Red" data-highlight="true" href="./" tabindex="0" className=" flex items-center cursor-pointer  gap-[10px] h-full overflow-visible p-0 relative no-underline w-full opacity-100">
@@ -40,18 +40,18 @@ const Navbar = () => {
                             </div>
                         </a>
                     </div>
-                    <div data-framer-name="Links" className={` ${pathname === '/' || '/careers' ? ' text-white' : pathname === '/platforms-and-protocols' ? 'text-black ' : ''} $ items-center flex  flex-none justify-start z-[1] gap-0 h-min t809:hidden overflow-visible p-0 relative w-min opacity-100`}>
+                    <div data-framer-name="Links" className={`  ${pathname === '/platforms-and-protocols' ? 'text-black' : 'text-white'}    items-center flex  flex-none justify-start z-[1] gap-0 h-min t809:hidden overflow-visible p-0 relative w-min opacity-100`}>
                         <div className="flex-none  h-auto relative w-auto ">
                             <a href="./platforms-and-protocols" data-framer-name=" Variant 1" className=" group flex justify-center items-center cursor-pointer  gap-[6px] w-min   px-[14px] py-[20px] relative no-underline  ">
                                 <div data-framer-component-type="RichTextContainer" className="   h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
-                                    <p className=" m-0 p-0 group-hover:text-[#f50032] b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]  ">Platforms & Protocols</p>
+                                    <p className={` m-0 p-0 ${pathname === '/platforms-and-protocols' && 'text-[#f50032]'} group-hover:text-[#f50032] b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]  `}>Platforms & Protocols</p>
                                 </div>
                             </a>
                         </div>
                         <div className="  h-auto relative w-auto opacity-100">
                             <a href="./products" data-framer-name="Variant 1" className="group flex place-content-center items-center cursor-pointer  gap-[6px] h-min overflow-visible px-[14px] py-[20px] relative no-underline w-min opacity-100">
                                 <div data-framer-component-type="RichTextContainer" className="   h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
-                                    <p className=" m-0 p-0 group-hover:text-[#f50032]  b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]">Products</p>
+                                    <p style={{ color: pathname === '/products' ? '#f50032' : '' }} className=" m-0 p-0 group-hover:text-[#f50032]  b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]">Products</p>
                                 </div>
                             </a>
                         </div>
@@ -65,14 +65,14 @@ const Navbar = () => {
                         <div className="  h-auto relative w-auto opacity-100">
                             <a href="./careers" data-framer-name="Variant 1" className="group flex place-content-center items-center cursor-pointer  gap-[6px] h-min overflow-visible px-[14px] py-[20px] relative no-underline w-min opacity-100">
                                 <div data-framer-component-type="RichTextContainer" className="   h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
-                                    <p className=" m-0 p-0 group-hover:text-[#f50032]  b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]">Careers</p>
+                                    <p style={{ color: pathname === '/careers' ? '#f50032' : '' }} className=" m-0 p-0 group-hover:text-[#f50032]  b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]">Careers</p>
                                 </div>
                             </a>
                         </div>
                         <div id="undefined-nmeqne" className="  h-auto relative w-auto opacity-100">
                             <div data-highlight="true" data-framer-name="Variant 1" className=" group place-content-center items-center cursor-pointer flex  gap-[6px] h-min overflow-visible px-[14px] py-[20px] relative w-min opacity-100">
                                 <div data-framer-component-type="RichTextContainer" className="   h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
-                                    <p className=" m-0 p-0 group-hover:text-[#f50032]  b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]">About</p>
+                                    <p style={{ color: pathname === '/about' ? '#f50032' : '' }} className=" m-0 p-0 group-hover:text-[#f50032]  b81t1199:text-[15px] text-[16px] leading-[80%] tracking-[-.03em]">About</p>
                                 </div>
                                 <div className="  h-[12px] relative w-[12px] opacity-100">
                                     <div className=" contents">

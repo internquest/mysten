@@ -38,7 +38,7 @@ const Products = () => {
                             </div>
                             <div data-framer-name="Frame 2147261108" class=" items-start justify-center flex b81t1199:flex-grow-0 b81t1199:flex-shrink-0 b81t1199:basis-auto t809:flex-col t809:flex-[0_0_auto] t809:w-full b81t1199:flex-col flex-[1_0_0px] b81t1199:gap-[18px] gap-[50px] h-min b81t1199:pt-0 b81t1199:pr-[40px] b81t1199:pb-0 b81t1199:pl-0 b81t1199:w-full b81t1199:flex-[0_0_auto] z-[2]  overflow-visible p-0 relative w-px content-center flex-row opacity-100">
                                 <div data-framer-name="Frame 2147261308" class=" items-start flex b81t1199:flex-[0_0_auto] flex-[1_0_0px] [flex-flow:column] gap-[8px] h-min overflow-visible p-0 relative e transform-none origin-[50%_50%_0px] opacity-100">
-                                    <div className=' t809:block b81t1199:block flex flex-col justify-start flex-shrink-0 w-full relative whitespace-pre-wrap '>
+                                    <div className=' t809:block b81t1199:block hidden flex flex-col justify-start flex-shrink-0 w-full relative whitespace-pre-wrap '>
                                         <h2 className='text-[42px] font-mystenwalteraltebold leading-[1em] tracking-[-.04em] text-white'>
                                             SuiPlay0X1
                                         </h2>

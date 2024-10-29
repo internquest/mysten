@@ -6,7 +6,7 @@ const page = () => {
     return (
         <>
             <Hero />
-            <div className='flex items-center bg-white place-content-center content-start flex-col gap-[50px] h-min p-[50px] w-full'>
+            <div className='flex items-center bg-white place-content-center content-start flex-col gap-[50px] h-min b81t1199:gap-[30px] b81t1199:py-[50px] b81t1199:px-[30px] p-[50px] w-full'>
 
                 <Card />
                 <Card />

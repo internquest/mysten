@@ -23,12 +23,12 @@ const FooterndBanner = () => {
                 <div class=" flex-[0_0_auto] h-auto relative w-full">
                     <div data-framer-name="Narrow Desktop" class=" place-content-center items-center flex [flex-flow:column] gap-0 h-min overflow-hidden p-0 relative w-full opacity-100">
                         <Banner />
-                        <div data-framer-name="angles" class=" t809:hidden items-center flex flex-[0_0_auto] [flex-flow:column] gap-[10px] h-min overflow-hidden p-0 relative w-full opacity-100">
+                        <div data-framer-name="angles" class=" t809:hidden content-center justify-start font-mystenWalteralteregular items-center flex flex-[0_0_auto] [flex-flow:column] gap-[10px] h-min overflow-hidden p-0 relative w-full opacity-100">
                             <div class=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-0 h-min overflow-hidden p-0 relative w-full opacity-100">
                                 <div data-framer-name="left corner" class=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-[218px] overflow-visible p-0 relative w-[88px] opacity-100">
                                     <div data-framer-component-type="SVG" data-framer-name="left corner" aria-hidden="true" class=" absolute flex-[0_0_auto] h-[218px] w-[88px] flex-shrink-0 fill-[rgb(0,_0,_0)] text-[rgb(0,_0,_0)] opacity-100">
                                         <div class=" w-full h-full [aspect-ratio:inherit]">
-                                            <Image src={anglesfirst} alt="anglesfirst" width="100%" height="100%" />
+                                            <Image src={anglesfirst} alt="anglesfirst" className='bg-cover' width="100%" height="100%" />
                                         </div>
                                     </div>
                                 </div>
@@ -46,10 +46,10 @@ const FooterndBanner = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div data-framer-name="right" class=" place-content-center items-center flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[218px] overflow-visible p-0 relative w-px opacity-100">
+                                <div data-framer-name="right" class=" place-content-center items-center flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[218px] overflow-visible p-0 relative  opacity-100">
                                     <div data-framer-component-type="SVG" data-framer-name="right" aria-hidden="true" class=" relative flex-[1_0_0px] h-[218px] w-px flex-shrink-0 fill-[rgb(0,_0,_0)] text-[rgb(0,_0,_0)] opacity-100">
                                         <div class=" w-full h-full [aspect-ratio:inherit]">
-                                            <Image src={angles4} alt="anglesfirst" fill objectFit='cover' />
+                                            <Image src={angles4} alt="anglesfirst" fill objectFit='cover' className='bg-cover' />
                                         </div>
                                     </div>
                                 </div>
@@ -75,9 +75,9 @@ const FooterndBanner = () => {
                                 </a>
                             </div>
                         </div>
-                        <div class=" place-content-center items-center flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-visible p-0 relative w-full opacity-100">
-                            <div data-framer-name="middle" class="bg-[#f50032] items-end flex flex-[0_0_auto] [flex-flow:row] gap-0 h-[350px] b81t1199:flex-col b81t1199:h-min b81t1199:place-content-end b81t1199:justify-center b81t1199:items-end overflow-visible p-0 relative w-full rounded-none [box-shadow:0px_-1px_0px_0px_var(--token-f932157a-f1bb-4ce8-82a0-0f692fa5c2c3,_rgb(245,_0,_50))] opacity-100">
-                                <div data-framer-name="left" class=" items-start flex b81t1199:flex-none b81t1199:pt-[10px] b81t1199:px-[40px] b81t1199:pb-[80px] b81t1199:w-full flex-[1_0_0px] [flex-flow:column] gap-[50px] h-min overflow-hidden pt-[10px] px-[40px] pb-[40px] relative w-px rounded-tl-none rounded-tr-none [box-shadow:none] opacity-100">
+                        <div class=" place-content-center items-center font-mystenWalteralteregular flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-visible p-0 relative w-full opacity-100">
+                            <div data-framer-name="middle" class="bg-[#f50032] items-end flex flex-[0_0_auto] [flex-flow:row] gap-0 h-[350px] t1199:flex-col t1199:h-min t1199:place-content-end t1199:justify-center t1199:items-end overflow-visible p-0 relative w-full rounded-none [box-shadow:0px_-1px_0px_0px_var(--token-f932157a-f1bb-4ce8-82a0-0f692fa5c2c3,_rgb(245,_0,_50))] opacity-100">
+                                <div data-framer-name="left" class=" items-start flex t1199:flex-none t809:pt-[20px] t809:px-[20px] t809:pb-[40px] b81t1199:pt-[10px] b81t1199:px-[40px] b81t1199:pb-[80px] t1199:w-full flex-[1_0_0px] [flex-flow:column] gap-[50px] h-min overflow-hidden pt-[10px] px-[40px] pb-[40px] relative w-px rounded-tl-none rounded-tr-none [box-shadow:none] opacity-100">
                                     <a data-framer-name="Logo/Symbol" href="./" class=" block [aspect-ratio:1.75_/_1] flex-[0_0_auto] h-[var(--framer-aspect-ratio-supported, 100px)] overflow-visible relative no-underline w-[175px] opacity-100">
                                         <div data-framer-component-type="SVG" data-framer-name="Group 1" aria-hidden="true" class=" absolute flex-[0_0_auto] h-[101px] left-0 top-0 w-[175px] flex-shrink-0 fill-[rgb(0,_0,_0)] text-[rgb(0,_0,_0)] opacity-100">
                                             <div class=" w-full h-full [aspect-ratio:inherit]">
@@ -219,11 +219,11 @@ const FooterndBanner = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div data-framer-name="right" class="box-border bg-[#f50032] [-webkit-font-smoothing:inherit] place-content-end justify-center  items-end flex b81t1199:flex-none b81t1199:h-min b81t1199:w-full  flex-[1_0_0px] [flex-flow:row] gap-[10px] h-full overflow-visible pt-0 px-[40px] pb-[40px] relative w-px opacity-100">
-                                    <div class=" items-start place-content-center content-start flex flex-[1_0_0px] [flex-flow:column] gap-[85px] h-min overflow-hidden p-0 relative w-px opacity-100">
-                                        <div data-framer-name="Frame 1197138161" class="place-content-start items-start flex flex-[0_0_auto] [flex-flow:row] gap-[100px] h-min overflow-visible p-0 relative w-full opacity-100">
-                                            <div data-framer-name="Frame 1197138162" class=" items-start flex flex-[0_0_auto] [flex-flow:column] gap-[44px] h-min overflow-visible p-0 relative w-[92px] opacity-100">
-                                                <div data-framer-name="Frame 1197138159" class=" items-start flex flex-[0_0_auto] [flex-flow:column] gap-[16px] h-min overflow-visible p-0 relative w-min opacity-100">
+                                <div data-framer-name="right" class=" t809:flex-none t809:h-min t809:w-full t809:pt-0 t809:px-[20px] t809:pb-[40px]  bg-[#f50032]  place-content-end justify-center  items-end flex t1199:flex-none t1199:h-min t1199:w-full  flex-[1_0_0px] [flex-flow:row] gap-[10px] h-full overflow-visible pt-0 px-[40px] pb-[40px] relative  opacity-100">
+                                    <div class=" items-start  content-start justify-center t809:gap-[44px] flex flex-[1_0_0px] [flex-flow:column] gap-[85px] h-min overflow-hidden p-0 relative  opacity-100">
+                                        <div data-framer-name="Frame 1197138161" class="t809:flex-col t809:gap-[50px] place-content-start items-start flex flex-[0_0_auto]  [flex-flow:row] gap-[100px] h-min overflow-visible p-0 relative w-full opacity-100">
+                                            <div data-framer-name="Frame 1197138162" class=" items-start t809:gap-[24px] t809:!w-full flex flex-[0_0_auto] [flex-flow:column] gap-[44px] h-min overflow-visible p-0 relative w-[92px] opacity-100">
+                                                <div data-framer-name="Frame 1197138159" class=" items-start flex flex-[0_0_auto] t809:gap-[24px] t809:w-full [flex-flow:column] gap-[16px] h-min overflow-visible p-0 relative w-min opacity-100">
                                                     <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] flex flex-col z-[5] justify-start flex-shrink-0 opacity-100 transform-none">
                                                         <p class=" footerlinktext">
                                                             <a data-styles-preset="d6jiotwqd" href="./about" class=" font-[var(--framer-blockquote-font-family,_var(--framer-link-font-family,_var(--framer-font-family,_Inter,_Inter_Placeholder,_sans-serif)))] font-[var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)))] text-[calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))] [transition:color_0.3s_cubic-bezier(0.44,_0,_0.56,_1)]">About</a>
@@ -276,14 +276,14 @@ const FooterndBanner = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <form class=" items-start flex flex-[0_0_auto] [flex-flow:row] gap-[20px] h-min overflow-hidden p-0 relative w-full text-black opacity-100">
-                                            <label class=" items-start flex flex-[1_0_0px] text-black [flex-flow:column] gap-[10px] h-min p-0 relative w-px opacity-100 transform-none">
+                                        <form class=" items-start t809:flex-col flex flex-[0_0_auto] [flex-flow:row] gap-[20px] h-min overflow-hidden p-0 relative w-full text-black opacity-100">
+                                            <label class=" items-start t809:flex-none t809:w-full flex flex-[1_0_0px] text-black [flex-flow:column] gap-[10px] h-min p-0 relative  opacity-100 transform-none">
                                                 <div class=" flex-[0_0_auto] h-[55px] relative w-full overflow-hidden border-[2px] border-black text-black rounded-[10px] bg-[#f50032] opacity-100">
                                                     <input type="email" required="" name="Email" placeholder="Sign up to receive updates" fdprocessedid="a5tp45" value="" class=" px-6 py-3 bg-transparent placeholder-[#000] text-[18px] text-black border-none w-full h-full tracking-normal leading-[1.2em] "></input>
                                                 </div>
                                             </label>
-                                            <div class=" flex-[0_0_auto] h-[55px] relative w-auto opacity-100 transform-none">
-                                                <button type="submit" data-border="true" data-framer-name="Default" data-reset="button" tabindex="0" fdprocessedid="yibsy" class=" text-[12px] font-[sans-serif]  p-0 px-[24px] bg-none place-content-center items-center cursor-pointer flex [flex-flow:row] gap-0 h-full overflow-visible relative w-min bg-[rgba(0,_0,_0,_0)] rounded-bl-[8px] rounded-br-[8px] border-black border-2 rounded-tl-[8px] rounded-tr-[8px] opacity-100">
+                                            <div class=" flex-[0_0_auto] t809:w-full h-[55px] relative w-auto opacity-100 transform-none">
+                                                <button type="submit" data-border="true" data-framer-name="Default" data-reset="button" tabindex="0" fdprocessedid="yibsy" class=" text-[12px] font-[sans-serif]  p-0 px-[24px] bg-none place-content-center items-center cursor-pointer flex [flex-flow:row] gap-0 h-full overflow-visible relative t809:w-full w-min bg-[rgba(0,_0,_0,_0)] rounded-bl-[8px] rounded-br-[8px] border-black border-2 rounded-tl-[8px] rounded-tr-[8px] opacity-100">
                                                     <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto select-none whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
                                                         <p class="text-[18px] leading-[2em] tracking-normal text-black ">Subscribe</p>
                                                     </div>
@@ -293,10 +293,10 @@ const FooterndBanner = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div data-framer-name="bottom" class="bg-[#f50032]  items-start place-content-start flex flex-[0_0_auto] [flex-flow:column] gap-[40px] h-[100px] overflow-hidden px-[40px] py-0 relative w-full rounded-bl-[24px] rounded-br-[24px] opacity-100">
-                                <div data-framer-name="divider" class=" flex-[0_0_auto] bg-black h-px overflow-visible relative w-full opacity-0"></div>
-                                <div class=" items-center place-content-between content-center flex flex-[0_0_auto] [flex-flow:row] h-min overflow-visible p-0 relative w-full opacity-100">
-                                    <div class=" items-center flex flex-[0_0_auto] [flex-flow:row] gap-[32px] h-min overflow-visible p-0 relative w-min opacity-100">
+                            <div data-framer-name="bottom" class="bg-[#f50032] t809:h-min t809:py-0 t809:px-5  items-start place-content-start flex flex-[0_0_auto] [flex-flow:column] gap-[40px] h-[100px] overflow-hidden px-[40px] py-0 relative w-full rounded-bl-[24px] rounded-br-[24px] opacity-100">
+                                <div data-framer-name="divider" class=" flex-[0_0_auto]  bg-black h-px overflow-visible relative w-full opacity-0"></div>
+                                <div class=" items-center t809:place-content-start font-fragmentmono t809:items-start t809:flex-col t809:gap-6 t809:order-2 t809:pt-0 t809:px-0 t809:pb-[30px] place-content-between content-center flex flex-[0_0_auto] [flex-flow:row] h-min overflow-visible p-0 relative w-full opacity-100">
+                                    <div class=" items-center flex t809:flex-col t809:gap-6 t809:items-start flex-[0_0_auto] [flex-flow:row] gap-[32px] h-min overflow-visible p-0 relative w-min opacity-100">
                                         <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] relative h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
                                             <p data-styles-preset="xVJaVJgCZ" class=" text-[13px] font-normal text-start leading-[.2em] tracking-normal text-black ">
                                                 <a data-styles-preset="d6jiotwqd" href="./privacy-policy" class=" font-[var(--framer-blockquote-font-family,_var(--framer-link-font-family,_var(--framer-font-family,_Inter,_Inter_Placeholder,_sans-serif)))] font-[var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)))] text-[calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))] [transition:color_0.3s_cubic-bezier(0.44,_0,_0.56,_1)]">Privacy Policy</a>
@@ -308,9 +308,11 @@ const FooterndBanner = () => {
                                             </p>
                                         </div>
                                     </div>
-                                    <div class=" items-center flex flex-[0_0_auto] [flex-flow:row] gap-[32px] h-min overflow-visible p-0 relative w-min opacity-100">
-                                        <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
-                                            <p data-styles-preset="xVJaVJgCZ" class="  text-[13px] font-normal text-start leading-[.2em] tracking-normal text-black">© 2024 Mysten Labs. All Rights Reserved.</p>
+                                    <div class=" items-center content-center justify-start flex flex-[0_0_auto] [flex-flow:row] gap-[32px] h-min overflow-visible p-0 relative w-min opacity-100">
+                                        <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] gap-5 flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
+                                            <p data-styles-preset="xVJaVJgCZ" class=" t809:hidden text-[13px] font-normal text-start leading-[.2em] tracking-normal text-black">© 2024 Mysten Labs. All Rights Reserved.</p>
+                                            <p data-styles-preset="xVJaVJgCZ" class=" hidden t809:block text-[13px] font-normal text-start leading-[.2em] tracking-normal text-black">© 2024 Mysten Labs. </p>
+                                            <p data-styles-preset="xVJaVJgCZ" class=" hidden t809:block text-[13px] font-normal text-start leading-[.2em] tracking-normal text-black"> All Rights Reserved.</p>
                                         </div>
                                     </div>
                                 </div>

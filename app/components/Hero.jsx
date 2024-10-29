@@ -11,7 +11,7 @@ const Hero = () => {
         <div data-framer-name="Hero" name="Hero" className="flex items-start place-content-start overflow-hidden px-[10px] pb-[10px] relative w-full">
             <div id="hero" className="flex-grow flex-shrink-0 basis-0 t809:h-auto b81t1199:h-[900px] relative w-full h-[854px]">
                 <div data-framer-name="Desktop Narrow" className=" t809:h-[600px] h-full w-full  opacity-100 flex flex-col relative overflow-hidden">
-                    <div data-framer-name="Top" className=" rounded-bl-[24px] t809:rounded-bl-none flex place-content-end flex-grow flex-shrink-0 basis-0 flex-col relative w-full bg-white b81t1199:rounded-none b81t1199:rounded-tl-[24px] b81t1199:rounded-tr-[24px] overflow-hidden text-white t809:pt-[60px] t809:px-[20px] t809:pb-[20px] b12t14:pt-[60px] b12t14:px-[40px] b12t14:pb-[40px] b81t1199:pt-[60px] b81t1199:px-[40px] b81t1199:pb-[40px] rounded-tl-[24px] rounded-tr-[24px] opacity-100">
+                    <div data-framer-name="Top" className=" rounded-bl-[24px] t809:rounded-bl-none flex place-content-end flex-grow flex-shrink-0 basis-0 flex-col relative w-full bg-white b81t1199:rounded-none b81t1199:rounded-tl-[24px] b81t1199:rounded-tr-[24px] overflow-hidden text-white t809:pt-[60px] t809:px-[20px] t809:pb-[20px] b12t14:pt-[60px] b12t14:px-[40px] b12t14:pb-[40px] b81t1199:pt-[60px] b81t1199:px-[40px] b81t1199:pb-[40px] pt-[60px] pr-[40px] pb-[60px] pl-[60px] rounded-tl-[24px] rounded-tr-[24px] opacity-100">
                         <div className=" opacity-100 z-[2]">
                             <div data-framer-name="Headline" className=" font-mystenwalteraltebold opacity-100 transform-none">
                                 <div className=" opacity-100">
@@ -52,7 +52,7 @@ const Hero = () => {
                         </div>
                     </div>
                     <div data-framer-name="Bottom" className=" t809:rounded-bl-[24px] t809:bg-white t809:rounded-br-[24px]  rounded-bl-none rounded-br-none opacity-100 flex items-center flex-shrink-0 h-[137px] relative w-full z-[1] ">
-                        <div data-framer-name="Description" className="t809:flex-grow-0 t809:basis-auto t809:flex-col t809:gap-[10px] t809:w-full   justify-start flex items-center flex-grow flex-shrink-0 basis-0 h-min relative  opacity-100">
+                        <div data-framer-name="Description" className="t809:flex-grow-0 t809:basis-auto t809:flex-col t809:gap-[10px] t809:w-full content-center  justify-start flex items-center flex-grow flex-shrink-0 basis-0 h-min relative  opacity-100">
                             <div className="flex-grow t809:hidden b81t1199:hidden flex-shrink-0 basis-0 relative h-min  opacity-100">
                                 <div data-framer-name="Logos" name="Logos" className=" flex-grow flex-shrink-0 basis-0 h-[36px] relative opacity-100">
                                     <section className=" flex w-full h-full max-w-full max-h-full place-items-center m-0 p-0 list-none opacity-100 [mask-image:linear-gradient(to_right,_rgba(0,_0,_0,_0)_0%,_rgb(0,_0,_0)_12.5%,_rgb(0,_0,_0)_87.5%,_rgba(0,_0,_0,_0)_100%)] overflow-hidden">
@@ -167,8 +167,8 @@ const Hero = () => {
                             </div>
                             <div className=" t809:rounded-bl-[24px] t809:rounded-br-[24px] place-content-center b81t1199:rounded-bl-[24px] b81t1199:rounded-br-[24px]  bg-white flex items-center flex-grow flex-shrink-0 basis-0 gap-[10px] t809:h-[117px] t809:flex-grow-0 t809:flex-shrink-0 t809:basis-0 t809:justify-start t809:order-2 t809:px-[20px] t809:pt-0 t809:pb-[20px] t809:w-full h-[137px] b81t1199:flex-grow-[1.5] b81t1199:pt-0 b81t1199:px-[40px] b81t1199:pb-[40px] b81t1199:justify-start
                             px-[40px] b81t1199:pr-[40px] pt-0 pr-[40px] pb-[70px] pl-0 z-[1] relative rounded-bl-none rounded-br-[24px] [box-shadow:rgb(255,_255,_255)_0px_-1px_0px_0px] opacity-100">
-                                <div data-framer-component-type="RichTextContainer" className="t809:flex-grow  flex-grow-0 h-auto relative b81t1199:w-[590px] w-[500px] break-words outline-[none] flex flex-col justify-start flex-shrink-0 opacity-100 transform-none">
-                                    <p className=" m-0 p-0 font-mystenWalteralteregular t809:text-[24px]  text-[32px] tracking-[-.04em] leading-[120%] text-black">At Mysten Labs, we are building critical infrastructure to enable a more decentralized internet</p>
+                                <div data-framer-component-type="RichTextContainer" className="t809:flex-grow  flex-grow-0 h-auto relative w-[590px] b81t1199:w-[500px] break-words outline-[none] flex flex-col justify-start flex-shrink-0 opacity-100 transform-none">
+                                    <p className=" m-0 p-0 font-mystenWalteralteregular t809:text-[24px]  text-[32px] tracking-[-.04em] text-start leading-[120%] text-black">At Mysten Labs, we are building critical infrastructure to enable a more decentralized internet</p>
                                 </div>
                             </div>
                         </div>
