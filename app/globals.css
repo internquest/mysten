@@ -27,11 +27,11 @@ body {
   }
 
   .careerhowcardheading {
-    @apply b12t14:text-[40px] b12t14:leading-[100%] font-normal b12t14:tracking-[-.03em] text-[#000]
+    @apply t809:text-[24px] b12t14:text-[40px] text-[44px] font-mystenwalteraltebold b12t14:leading-[100%] font-normal b12t14:tracking-[-.03em] text-[#000]
   }
 
   .careerhowcarddesc {
-    @apply b12t14:text-[24px] b12t14:leading-[120%] font-normal b12t14:tracking-[-.03em] text-[#000]
+    @apply t809:text-[18px] text-[24px] b12t14:leading-[100%] font-mystenWalteralteregular font-normal b12t14:tracking-[-.03em] text-[#000]
   }
 
   .platformcardmaintext {
@@ -75,20 +75,24 @@ body {
   }
 
   .interviwescardtitle {
-    @apply b12t14:text-[26px] text-[32px] font-normal tracking-[-.03em] leading-[110%] text-black
+    @apply t1199:text-[32px] b12t14:text-[26px] text-[32px] font-normal font-mystenwalteraltebold tracking-[-.03em] leading-[110%] text-black
   }
 
 
   .interviwescarddesc {
-    @apply text-[18px] font-normal tracking-[-.03em] leading-[1.2em] text-black
+    @apply text-[18px] font-normal tracking-[-.03em] font-mystenWalteralteregular leading-[1.2em] text-black
   }
 
   .careeraccordianque {
-    @apply text-[18px] font-normal tracking-[-.03em] leading-[1.2em] text-black
+    @apply t809:text-[20px] b81t1199:text-[24px] text-[18px] font-normal tracking-[-.03em] font-mystenwalteraltebold leading-[1.2em] text-black
   }
 
   .careeraccordiandesc {
-    @apply text-[18px] font-normal tracking-[-.03em] leading-[1.2em] text-black
+    @apply text-[18px] font-normal tracking-[-.03em] font-mystenWalteralteregular leading-[1.2em] text-black
+  }
+
+  .careerteamintercard {
+    @apply items-start flex t809:flex-none t809:w-full b81t1199:items-start b81t1199:h-full b81t1199:justify-start b81t1199:w-full flex-[1_0_0px] [flex-flow:column] gap-[16px] h-min overflow-visible p-0 relative w-px opacity-100
   }
 
   .aboutfoundername {

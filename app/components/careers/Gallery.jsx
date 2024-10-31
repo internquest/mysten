@@ -2,7 +2,7 @@ import React from 'react'
 
 const Gallery = () => {
     return (
-        <div data-framer-name="Gallery" id="header-trigger" name="Gallery" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(255,_255,_255)] rounded-tl-[24px] rounded-tr-[24px] flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-visible px-0 py-[50px] relative w-full">
+        <div data-framer-name="Gallery" id="header-trigger" name="Gallery" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(255,_255,_255)] rounded-tl-[24px] rounded-tr-[24px] flex flex-[0_0_auto] t809:py-[20px] [flex-flow:column] gap-0 h-min overflow-visible px-0 py-[50px] relative w-full">
             <div data-framer-name="image-sticky" name="image-sticky" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-[24px] h-min overflow-hidden pl-[50px] pr-0 py-0 relative w-full">
                 <div class="box-border [-webkit-font-smoothing:inherit] place-content-center items-center rounded-[24px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-auto p-0 relative w-full">
                     <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[558px] relative w-px">

@@ -2,24 +2,24 @@ import React from 'react'
 
 const Howwework = () => {
     return (
-        <div data-framer-name="How We Work" name="How We Work" class="box-border [-webkit-font-smoothing:inherit] items-center bg-[rgb(255,_255,_255)] flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-hidden px-[50px] py-[100px] relative w-full">
-            <div class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[50px] h-min max-w-[1340px] overflow-hidden p-0 relative w-full">
-                <div data-framer-name="Left" name="Left" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-[50px] h-min overflow-visible pl-0 pr-[20px] py-0 relative w-[435px]">
+        <div data-framer-name="How We Work" name="How We Work" class="box-border [-webkit-font-smoothing:inherit] items-center bg-[rgb(255,_255,_255)] flex t809:gap-[50px] t809:pt-[30px] t809:px-[20px] t809:pb-[50px] flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-hidden  b81t1199:pt-[60px] b81t1199:px-[30px] b81t1199:pb-[70px] b81t1199:gap-[50px] px-[50px] py-[100px] relative w-full">
+            <div class="box-border [-webkit-font-smoothing:inherit] items-start flex t1199:flex-col flex-[0_0_auto] [flex-flow:row] gap-[50px] h-min max-w-[1340px] overflow-hidden p-0 relative w-full">
+                <div data-framer-name="Left" name="Left" class=" t809:flex-none t809:gap-5 t809:p-0 t809:w-full items-start flex flex-[0_0_auto] [flex-flow:column] b81t1199:float-none b81t1199:gap-[30px] b81t1199:w-full gap-[50px] h-min overflow-visible pl-0 pr-[20px] py-0 relative w-[435px]">
                     <div data-framer-name="Title" name="Title" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-[12px] h-min overflow-visible p-0 relative w-full">
                         <div data-framer-name="How we work" data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
-                            <p data-styles-preset="eeyWvpH8P" class="b12t14:text-[24px] b12t14:leading-[120%] font-normal b12t14:tracking-[.02em] text-[#f50032] uppercase">How we work</p>
+                            <p data-styles-preset="eeyWvpH8P" class="t1199:text-[16px]  text-[24px] font-fragmentmono b12t14:leading-[120%] font-normal b12t14:tracking-[.02em] text-[#f50032] uppercase">How we work</p>
                         </div>
                         <div data-framer-name="Remote First" data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
-                            <h2 data-styles-preset="TJqXc_TCw" class="b12t14:text-[50px] b12t14:leading-[1em] font-normal b12t14:tracking-[-.04em] text-black">Remote First</h2>
+                            <h2 data-styles-preset="TJqXc_TCw" class="t809:text-[24px] b81t1199:text-[32px] b12t14:text-[50px] text-[55px] b12t14:leading-[1em] font-normal b12t14:tracking-[-.04em] font-mystenwalteraltebold text-black">Remote First</h2>
                         </div>
                     </div>
                     <div data-framer-name="We believe talent shouldn’t be limited by geographic location, and create ways to stay connected through co-working opportunities, team and company wide offsites among other ways of being together." data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[0_0_auto] h-auto whitespace-pre-wrap w-full break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
-                        <p data-styles-preset="NqaKZIp8q" class="b12t14:text-[32px] b12t14:leading-[120%] font-normal b12t14: tracking-[-.04em] text-black">We believe talent shouldn’t be limited by geographic location, and create ways to stay connected through co-working opportunities, team and company wide offsites among other ways of being together.</p>
+                        <p data-styles-preset="NqaKZIp8q" class="t809:text-[20px] b81t1199:text[24px] text-[32px] font-mystenWalteralteregular b12t14:leading-[120%] font-normal b12t14: tracking-[-.04em] text-black">We believe talent shouldn’t be limited by geographic location, and create ways to stay connected through co-working opportunities, team and company wide offsites among other ways of being together.</p>
                     </div>
                     <div class="box-border [-webkit-font-smoothing:inherit] flex-[0_0_auto] h-auto relative w-auto">
                         <a data-border="true" data-framer-name="Light" data-highlight="true" href="https://jobs.ashbyhq.com/mystenlabs" target="_blank" rel="noopener" tabindex="0" class="animtextparent bg-white">
                             <div data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-end flex-shrink-0 transform-none opacity-100">
-                                <p class="animtext text-black">See Open Positions</p>
+                                <p class="animtext font-mystenwalteraltebold text-black">See Open Positions</p>
                             </div>
                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[0_0_auto] h-[24px] relative w-[24px] opacity-100 transform-none">
                                 <div class="box-border [-webkit-font-smoothing:inherit] contents">
@@ -33,10 +33,10 @@ const Howwework = () => {
                         </a>
                     </div>
                 </div>
-                <div data-framer-name="cards" name="cards" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[1_0_0px] [flex-flow:column] gap-[50px] h-min overflow-visible p-0 relative w-px">
+                <div data-framer-name="cards" name="cards" class="box-border t1199:gap-6 t1199:w-full [-webkit-font-smoothing:inherit] items-start flex flex-[1_0_0px] [flex-flow:column] gap-[50px] h-min overflow-visible p-0 relative w-px">
                     <div data-framer-name="card" name="card" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-visible p-0 relative w-full opacity-100 transform-none">
                         <div data-framer-name="top" name="top" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-0 h-[103px] overflow-visible pl-0 pr-[76px] py-0 relative w-full">
-                            <div data-framer-name="top-left" name="top-left" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)] rounded-tl-[24px] flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[103px] overflow-visible pt-[50px] pr-[20px] pb-0 pl-[50px] relative w-px">
+                            <div data-framer-name="top-left" name="top-left" class="box-border [-webkit-font-smoothing:inherit] t809:h-[103px] t809:pt-[30px] t809:px-[20px] items-start bg-[rgb(246,_244,_244)] rounded-tl-[24px] flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[103px] overflow-visible pt-[50px] pr-[20px] pb-0 pl-[50px] relative w-px">
                                 <div data-framer-name="Focus on step change advancements" data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
                                     <p class="careerhowcardheading">Focus on step change advancements</p>
                                 </div>
@@ -49,7 +49,7 @@ const Howwework = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-framer-name="body" name="body" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)] rounded-bl-[24px] rounded-br-[24px] rounded-tr-[24px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible p-[50px] relative w-full">
+                        <div data-framer-name="body" name="body" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)] t809:pt-10 t809:px-5 t809:pb-[30px] rounded-bl-[24px] rounded-br-[24px] rounded-tr-[24px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible p-[50px] relative w-full">
                             <div data-framer-name="We solve big, messy problems. We challenge the status quo and defy convention. We dare to dream big and relentlessly pursue groundbreaking innovations that lead to exponential progress in creating a decentralized future." data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
                                 <p class="careerhowcarddesc">We solve big, messy problems. We challenge the status quo and defy convention. We dare to dream big and relentlessly pursue groundbreaking innovations that lead to exponential progress in creating a decentralized future.</p>
                             </div>
@@ -68,9 +68,14 @@ const Howwework = () => {
                     </div>
                     <div data-framer-name="card" name="card" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-visible p-0 relative w-full opacity-100 transform-none">
                         <div data-framer-name="top" name="top" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] z-[1] [flex-flow:row] gap-0 h-[103px] overflow-visible pl-0 pr-[76px] py-0 relative w-full">
-                            <div data-framer-name="top-left" name="top-left" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)] rounded-tl-[24px] flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[103px] overflow-visible pt-[50px] pr-[20px] pb-0 pl-[50px] relative w-px">
+                            <div data-framer-name="top-left" name="top-left" class="box-border [-webkit-font-smoothing:inherit] t809:h-[103px] t809:pt-[30px] t809:px-[20px] items-start bg-[rgb(246,_244,_244)] rounded-tl-[24px] flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[103px] overflow-visible pt-[50px] pr-[20px] pb-0 pl-[50px] relative w-px">
                                 <div data-framer-name="Focus on step change advancements" data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
-                                    <p class="careerhowcardheading">
+                                    <p class="careerhowcardheading leading-[100%] m1440:block hidden">
+                                        Everybody carries
+                                        <br />
+                                        the box
+                                    </p>
+                                    <p class="careerhowcardheading m1440:hidden">
                                         <span class="careerhowcardheading text-[44px] leading-[100%]">Everybody carries</span>
                                         <br class="box-border [-webkit-font-smoothing:inherit]"></br>
                                         <span class="careerhowcardheading text-[44px] leading-[100%]">the box</span>
@@ -85,7 +90,7 @@ const Howwework = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-framer-name="body" name="body" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)] rounded-bl-[24px] rounded-br-[24px] rounded-tr-[24px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible p-[50px] relative w-full">
+                        <div data-framer-name="body" name="body" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)]  t809:pt-10 t809:px-5 t809:pb-[30px] rounded-bl-[24px] rounded-br-[24px] rounded-tr-[24px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible p-[50px] relative w-full">
                             <div data-framer-name="We solve big, messy problems. We challenge the status quo and defy convention. We dare to dream big and relentlessly pursue groundbreaking innovations that lead to exponential progress in creating a decentralized future." data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
                                 <p class="careerhowcarddesc">Collaboration is vital for shaping the next iteration of the internet. We believe everybody carries the box, and together, we can break new ground, conquer the impossible, and build for the greater good.</p>
                             </div>
@@ -104,7 +109,7 @@ const Howwework = () => {
                     </div>
                     <div data-framer-name="card" name="card" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-0 h-min overflow-visible p-0 relative w-full opacity-100 transform-none">
                         <div data-framer-name="top" name="top" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-0 h-[103px] overflow-visible pl-0 pr-[76px] py-0 relative w-full">
-                            <div data-framer-name="top-left" name="top-left" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)] rounded-tl-[24px] flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[103px] overflow-visible pt-[50px] pr-[20px] pb-0 pl-[50px] relative w-px">
+                            <div data-framer-name="top-left" name="top-left" class="box-border [-webkit-font-smoothing:inherit] t809:h-[103px] t809:pt-[30px] t809:px-[20px] items-start bg-[rgb(246,_244,_244)] rounded-tl-[24px] flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-[103px] overflow-visible pt-[50px] pr-[20px] pb-0 pl-[50px] relative w-px">
                                 <div data-framer-name="Focus on step change advancements" data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
                                     <p class="careerhowcardheading">Operate with integrity</p>
                                 </div>
@@ -117,7 +122,7 @@ const Howwework = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-framer-name="body" name="body" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)] rounded-bl-[24px] rounded-br-[24px] rounded-tr-[24px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible pt-[20px] px-[50px] pb-[50px] relative w-full">
+                        <div data-framer-name="body" name="body" class="box-border [-webkit-font-smoothing:inherit] items-start bg-[rgb(246,_244,_244)]  t809:pt-10 t809:px-5 t809:pb-[30px] rounded-bl-[24px] rounded-br-[24px] rounded-tr-[24px] flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min overflow-visible pt-[20px] px-[50px] pb-[50px] relative w-full">
                             <div data-framer-name="We solve big, messy problems. We challenge the status quo and defy convention. We dare to dream big and relentlessly pursue groundbreaking innovations that lead to exponential progress in creating a decentralized future." data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] relative flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
                                 <p class="careerhowcarddesc">Credibility matters. So we choose transparency and always seek diverse and divergent perspectives to strengthen our own. We keep things steady, open our ears and say what we mean – internally, with our partners and with the world.</p>
                             </div>

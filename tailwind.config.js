@@ -12,6 +12,7 @@ module.exports = {
         't1199': { 'max': '1199px' },
         'b81t1199': { 'min': '810px', 'max': '1199px' },
         "b12t14": { 'min': '1200px', 'max': '1439px' },
+        'm1440': { 'min': '1440px' },
       },
       fontFamily: {
         mystenwalteraltebold: ['var(--font-mystenwalteraltebold)'],

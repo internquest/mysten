@@ -54,7 +54,7 @@ const Banner = () => {
                     <div class=" flex-[0_0_auto] h-auto relative w-auto opacity-100 transform-none">
                         <a data-border="true" data-framer-name="Dark" data-highlight="true" href="./research-and-development" tabindex="0" class=" animtextparent">
                             <div data-framer-component-type="RichTextContainer" class="  flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-end flex-shrink-0 transform-none opacity-100">
-                                <p class="animtext ">{cards[cardnum - 1].buttondesc}</p>
+                                <p class="animtext font-mystenwalteraltebold">{cards[cardnum - 1].buttondesc}</p>
                             </div>
                         </a>
                     </div>
