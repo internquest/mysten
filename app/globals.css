@@ -22,6 +22,15 @@ body {
 
 
 @layer components {
+
+  /* mobile nav */
+
+
+  .links {
+    @apply text-black text-[24px] leading-[110%] tracking-[-.03em] text-start
+  }
+
+
   .platformcarddesctext {
     @apply text-black text-[32px] leading-[120%] tracking-[-.04em]
   }
