@@ -96,11 +96,11 @@ body {
   }
 
   .aboutfoundername {
-    @apply text-[32px] tracking-[-.04em] leading-[120%] text-black group-hover:text-[#f50032]
+    @apply t1199:text-[24px] text-[32px] font-mystenwalteraltebold tracking-[-.04em] leading-[120%] text-black group-hover:text-[#f50032]
   }
 
   .aboutfounderdesig {
-    @apply text-black tracking-[-.03em] leading-[90%] text-[16px] group-hover:text-[#f50032]
+    @apply text-black tracking-[-.03em] font-fragmentmono leading-[90%] text-[16px] group-hover:text-[#f50032]
   }
 
   /* .intervieewcardlink {

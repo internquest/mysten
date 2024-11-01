@@ -8,15 +8,15 @@ import heroDivider from '@/public/hero-divider.svg'
 const Hero = () => {
     return (
         <div data-framer-name="Hero" name="Hero" className="flex items-start place-content-start overflow-hidden px-[10px] pb-[10px] relative w-full">
-            <div id="hero" className="flex-grow flex-shrink-0 basis-0 relative w-full h-[854px]">
+            <div id="hero" className="flex-grow flex-shrink-0 basis-0 relative w-full ">
                 <div data-framer-name="Desktop Narrow" className=" h-full w-full  opacity-100 flex flex-col relative overflow-hidden">
-                    <div data-framer-name="Top" className=" rounded-bl-[24px] flex-none flex place-content-end flex-grow flex-shrink-0 basis-0 flex-col relative w-full bg-white t809:px-[20px] t809:pb-[40px]  b81t1199:px-[40px] b81t1199:pb-[90px]  b12t14:px-[40px] b12t14:pb-[40px]  pt-[200px] pr-[40px] pb-[60px] pl-[60px] rounded-tl-[24px] rounded-tr-[24px] opacity-100">
-                        <div className=" opacity-100">
+                    <div data-framer-name="Top" className=" t809:rounded-bl-none rounded-bl-[24px]  flex-none items-end justify-end flex place-content-end  flex-col relative w-full bg-white t809:h-[400px] t809:px-[20px] t809:pb-[40px]  b81t1199:px-[40px] b81t1199:pb-[90px]  b12t14:px-[40px] b12t14:pb-[40px]  pt-[200px] pr-[40px] pb-[60px] pl-[60px] rounded-tl-[24px] rounded-tr-[24px] opacity-100">
+                        <div className=" opacity-100 flex items-start flex-col gap-[40px] h-min justify-start relative w-full z-[2]">
                             <div data-framer-name="Headline" className=" opacity-100 flex items-start flex-none flex-col gap-0 h-min justify-start max-w-[1340px] p-0 w-full relative z-[3]  font-mystenwalteraltebold transform-none">
                                 <div className=" opacity-100">
                                     <div data-framer-name="Dark Desktop" className=" items-center flex pt-[12px] px-[20px] pb-[10px]  bg-black gap-[10px] h-min overflow-visible relative w-min opacity-100">
                                         <div data-framer-component-type="RichTextContainer" className="  flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
-                                            <h1 data-styles-preset="axPtEQYyj" className=" font-normal  text-[115px] tracking-[-.04em] leading-[.9em] text-start">Join Us</h1>
+                                            <h1 data-styles-preset="axPtEQYyj" className=" font-normal t809:text-[52px] text-[115px] tracking-[-.04em] leading-[.9em] text-start">Join Us</h1>
                                         </div>
                                     </div>
                                 </div>
@@ -24,14 +24,14 @@ const Hero = () => {
                                 <div className=" opacity-100">
                                     <div data-framer-name="Dark Desktop" className=" items-center flex pt-[12px] px-[20px] pb-[10px]  bg-black gap-[10px] h-min overflow-visible relative w-min opacity-100">
                                         <div data-framer-component-type="RichTextContainer" className="  flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none opacity-100">
-                                            <h1 data-styles-preset="axPtEQYyj" className=" b12t14:font-normal text-[115px] tracking-[-.04em] leading-[.9em] text-start">At Mysten</h1>
+                                            <h1 data-styles-preset="axPtEQYyj" className=" t809:text-[52px] font-normal text-[115px] tracking-[-.04em] leading-[.9em] text-start">At Mysten</h1>
                                         </div>
                                     </div>
                                 </div>
 
                             </div>
                         </div>
-                        <div data-framer-component-type="SVG" data-framer-name="Vector" aria-hidden="true" className=" absolute t809:h-[457px] t809:flex-none t809:right-[-12px]  t809:w-[862px] t809:bottom-[60px] b81t1199:bottom-[90px] b81t1199:h-[610px] b81t1199:right-[-72px] b81t1199:w-[1151px] b12t14:bottom-[40px] bottom-[60px] b12t14:h-[660px] b12t14:w-[1223px]  h-[765px] w-[1443px] basis-auto flex-grow-0 z-[0] right-[-12px] flex-none flex-shrink-0 fill-[rgb(0,_0,_0)] text-[rgb(0,_0,_0)] opacity-100">
+                        <div data-framer-component-type="SVG" data-framer-name="Vector" aria-hidden="true" className=" absolute   t809:h-[457px] t809:flex-none t809:right-[-12px]  t809:w-[862px] t809:bottom-[60px] b81t1199:bottom-[90px] b81t1199:h-[610px] b81t1199:right-[-72px] b81t1199:w-[1151px] b12t14:bottom-[40px] bottom-[60px] b12t14:h-[660px] b12t14:w-[1223px]  h-[765px] w-[1443px] basis-auto flex-grow-0 z-[0] right-[-12px] flex-none flex-shrink-0 fill-[rgb(0,_0,_0)] text-[rgb(0,_0,_0)] opacity-100">
                             <div className=" w-full h-full [aspect-ratio:inherit]">
                                 <Image src={herobg} alt='herobg' fill objectFit='cover' className='w-full h-full bg-cover' />
                             </div>

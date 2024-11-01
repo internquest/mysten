@@ -2,21 +2,23 @@ import React from 'react'
 
 const Founders = () => {
     return (
-        <div data-framer-name="Founders" name="Founders" class="box-border [-webkit-font-smoothing:inherit] items-center bg-[rgb(255,_255,_255)] flex flex-[0_0_auto] [flex-flow:column] gap-[25px] h-min overflow-visible px-0 py-[100px] relative w-full">
-            <div data-framer-name="Title" name="Title" class=" box-border [-webkit-font-smoothing:inherit] items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min max-w-[1440px] overflow-hidden px-[50px] py-0 relative w-full">
+        <div data-framer-name="Founders" name="Founders" class="b81t1199:py-[70px] b81t1199:px-0 items-center bg-[rgb(255,_255,_255)] flex flex-[0_0_auto] [flex-flow:column] t809:gap-[30px] t809:py-[50px] gap-[25px] h-min overflow-visible px-0 py-[100px] relative w-full">
+            <div data-framer-name="Title" name="Title" class=" box-border [-webkit-font-smoothing:inherit] items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min max-w-[1440px] overflow-hidden t809:px-[20px] px-[50px] py-0 relative w-full">
                 <div data-framer-name="Founders" data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit]  flex-[0_0_auto] h-auto whitespace-pre w-auto outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
-                    <h2 data-styles-preset="TJqXc_TCw" class="text-black b12t14:text-[50px] text-[55px] tracking-[-.04em] leading-[1em]">Founders</h2>
+                    <h2 data-styles-preset="TJqXc_TCw" class="text-black font-mystenwalteraltebold t809:text-[24px] b81t1199:text-[32px] b12t14:text-[50px] text-[55px] tracking-[-.04em] leading-[1em]">Founders</h2>
                 </div>
             </div>
-            <div data-framer-name="cards list" name="cards list" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-[24px] h-min max-w-[1440px] overflow-hidden pl-[50px] pr-0 py-0 sticky top-[180px] w-full">
+            <div data-framer-name="cards list" name="cards list" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-[24px] h-min max-w-[1440px] overflow-hidden t809:px-[20px] t809:relative t809:top-[unset] pl-[50px] pr-0 py-0 sticky top-[180px] w-full">
                 <div class="box-border [-webkit-font-smoothing:inherit] contents">
-                    <div data-framer-name="Cards" name="Cards" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden pt-[25px] px-0 pb-0 relative w-min opacity-100 transform-none">
+                    <div data-framer-name="Cards" name="Cards" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] t809:flex-col t809:p-0 t809:w-full [flex-flow:row] gap-[24px] h-min overflow-hidden pt-[25px] px-0 pb-0 relative w-min [&>div]:t809:w-full [&>div>a]:t809:flex [&>div>a]:t809:w-full [&>div>a]:t809:h-min [&>div>a>div]:t809:w-[1px] [&>div>a>div]:t809:translate-x-0 [&>div>a>div]:t809:translate-y-0  [&>div>a>div]:t809:flex-[1_0_0] [&>div>a>div]:t809:left-[unset] [&>div>a>div]:t809:top-[unset] [&>div>a>div]:t809:relative [&>div>a>div]:t809:items-center [&>div>a>div]:t809:justify-center [&>div>a>div>div]:t809:h-auto [&>div>a>div>div>div]:t809:inset-0 opacity-100 transform-none">
                         <div class="box-border [-webkit-font-smoothing:inherit] flex-[0_0_auto] h-auto relative w-[395px] opacity-100 transform-none">
                             <a data-framer-name="Desktop" href="https://www.linkedin.com/in/chengevan" target="_blank" rel="noopener" class="group box-border [-webkit-font-smoothing:inherit] block cursor-pointer h-[584px] overflow-visible relative no-underline w-full opacity-100">
                                 <div data-framer-name="Inner" class="box-border [-webkit-font-smoothing:inherit] place-content-center items-center flex flex-[0_0_auto] [flex-flow:column] gap-[10px] h-min left-2/4 overflow-visible p-0 absolute top-2/4 w-[395px] -translate-x-1/2 -translate-y-1/2 opacity-100">
                                     <div data-framer-name="Image" class="box-border [-webkit-font-smoothing:inherit] [aspect-ratio:0.776031_/_1] flex-[0_0_auto] h-[var(--framer-aspect-ratio-supported, 509px)] relative w-full rounded-[24px] opacity-100">
                                         <div data-framer-background-image-wrapper="true" class="box-border [-webkit-font-smoothing:inherit] absolute [border-radius:inherit]">
-                                            <img decoding="async" loading="lazy" sizes="395px" src="https://framerusercontent.com/images/v8CG5ecV1UE79bohybDRWB3nWsY.png" alt="" class="box-border [-webkit-font-smoothing:inherit] block w-full h-full [border-radius:inherit] object-fill"></img>
+                                            <img decoding="async" loading="lazy" sizes="max(calc(min(100vw, 1440px) - 40px), 1px)" src="https://framerusercontent.com/images/v8CG5ecV1UE79bohybDRWB3nWsY.png" alt="" class="box-border [-webkit-font-smoothing:inherit]  w-full h-full [border-radius:inherit] object-fill t1199:block hidden"></img>
+                                            <img decoding="async" loading="lazy" sizes="395px" src="https://framerusercontent.com/images/v8CG5ecV1UE79bohybDRWB3nWsY.png" alt="" class="box-border [-webkit-font-smoothing:inherit] block w-full h-full [border-radius:inherit] object-fill t809:hidden"></img>
+
                                         </div>
                                     </div>
                                     <div data-framer-name="Text" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] justify-start gap-[12px] h-min overflow-visible p-0 relative w-full opacity-100">
@@ -137,8 +139,8 @@ const Founders = () => {
                                     </div>
                                     <div data-framer-name="Text" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:column] gap-[12px] h-min overflow-visible p-0 relative w-full transform-none origin-[50%_50%_0px]">
                                         <div class="box-border [-webkit-font-smoothing:inherit] items-center flex flex-[0_0_auto] [flex-flow:row] h-min overflow-visible p-0 relative w-full transform-none origin-[50%_50%_0px]">
-                                            <div data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit] absolute flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none origin-[50%_50%_0px]">
-                                                <p class="aboutfoundername">George Danezis</p>
+                                            <div data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit]  flex-[1_0_0px] h-auto whitespace-pre-wrap w-px break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none origin-[50%_50%_0px]">
+                                                <p class="aboutfoundername">Kostas Chalkias</p>
                                             </div>
                                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[0_0_auto] h-[32px] relative w-[32px] transform-none origin-[50%_50%_0px]">
                                                 <div class="box-border [-webkit-font-smoothing:inherit] contents">
@@ -159,7 +161,7 @@ const Founders = () => {
                     </div>
                 </div>
             </div>
-            <div data-framer-name="Sticky-cards" id="cards-trigger" name="Sticky-cards" class="box-border [-webkit-font-smoothing:inherit] place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-[800px] overflow-hidden p-0 relative w-full z-0"></div>
+            <div data-framer-name="Sticky-cards" id="cards-trigger" name="Sticky-cards" class="t809:hidden box-border [-webkit-font-smoothing:inherit] place-content-center items-center flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-[800px] overflow-hidden p-0 relative w-full z-0"></div>
         </div>
     )
 }

@@ -12,7 +12,7 @@ const page = () => {
             <FoundersStori3es />
             <Founders />
             <Investors />
-            <Partners />
+            {/* <Partners /> */}
         </>
     )
 }

@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
       <body
         className={` antialiased`}
       >
-        <div className="min-h-[100vh] min-w-full b12t14:w-[1200px] flex items-center  flex-col h-min justify-start relative">
+        <div className="min-h-[100vh] min-w-full b12t14:w-[1200px] flex text-[12px] items-center  flex-col h-min justify-start relative">
 
           <Navbar />
           {children}

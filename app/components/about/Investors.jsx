@@ -1,19 +1,20 @@
 import React from 'react'
+import Partners from './Partners'
 
 const Investors = () => {
     return (
-        <div className='bg-white p-[10px] pb-0 flex flex-none items-start flex-col justify-start h-min w-full relative'>
-            <div data-framer-name="Our Investors" name="Our Investors" class="bg-[#f6f4f4] box-border [-webkit-font-smoothing:inherit] items-center rounded-[24px] flex flex-[0_0_auto] [flex-flow:column] gap-[50px] h-min overflow-hidden pt-[100px] px-[50px] pb-[50px] relative w-full">
+        <div className='bg-white p-[10px] pb-0 flex flex-none gap-[10px] items-start flex-col justify-start h-min w-full relative'>
+            <div data-framer-name="Our Investors" name="Our Investors" class="bg-[#f6f4f4] box-border [-webkit-font-smoothing:inherit] items-center rounded-[24px] flex flex-[0_0_auto] [flex-flow:column] t809:gap-[20px] gap-[50px] h-min overflow-hidden t809:pt-[40px] t809:px-[16px] t809:pb-[16px] b81t1199:pt-[60px] b81t1199:px-[30px] b81t1199:pb-[30px] pt-[100px] px-[50px] pb-[50px] relative w-full">
                 <div data-framer-name="Text and CTA" name="Text and CTA" class=" box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[10px] h-min max-w-[1320px] overflow-visible p-0 relative w-full">
                     <div data-framer-name="We're not just changing the game we're building a better playing field”" data-framer-component-type="RichTextContainer" class="box-border [-webkit-font-smoothing:inherit]  flex-[0_0_auto] h-auto whitespace-pre-wrap w-[300px] break-words outline-[none] flex flex-col justify-start flex-shrink-0 transform-none">
-                        <h2 data-styles-preset="TJqXc_TCw" class="b12t14:text-[50px] text-[55px] tracking-[-.04em] leading-[1em] text-black">Our Investors</h2>
+                        <h2 data-styles-preset="TJqXc_TCw" class="t809:text-[24px] b81t1199:text-[32px] b12t14:text-[50px] font-mystenwalteraltebold text-[55px] tracking-[-.04em] leading-[1em] text-black">Our Investors</h2>
                     </div>
                 </div>
-                <div data-framer-name="logo-cards" name="logo-cards" class="box-border [-webkit-font-smoothing:inherit] items-center flex flex-[0_0_auto] [flex-flow:column] gap-[24px] h-min max-w-[1320px] overflow-hidden p-0 relative w-full">
-                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-full">
+                <div data-framer-name="logo-cards" name="logo-cards" class="box-border [-webkit-font-smoothing:inherit] [&>div]:t809:grid items-center flex flex-[0_0_auto] [flex-flow:column] t809:gap-[10px] gap-[24px] h-min max-w-[1320px] overflow-hidden  [&>div]:t809:auto-rows-[minmax(0,1fr)] [&>div]:t809:grid-cols-[repeat(2,minmax(50px,1fr))] [&>div]:t809:grid-rows-[repeat(2,minmax(50px,1fr))] [&>div>div>div]:t809:h-[100px] [&>div>div>div]:t809:w-full   [&_a]:t1199:py-[20px] [&_a]:t1199:px-[30px] [&>div]:t809:justify-center   [&>div]:t809:gap-[10px] p-0 relative w-full">
+                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] t809:!flex b81t1199:gap-4  gap-[24px] h-min overflow-hidden p-0 relative w-full">
                         <div class="box-border [-webkit-font-smoothing:inherit] contents">
-                            <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[200px] relative w-px">
-                                <a data-framer-name="Desktop" href="https://a16zcrypto.com/" target="_blank" rel="noopener" class="box-border bg-white [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden p-[50px]  relative no-underline w-full rounded-[16px] opacity-100">
+                            <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] t809:h-[100px] h-[200px] relative w-px">
+                                <a data-framer-name="Desktop" href="https://a16zcrypto.com/" target="_blank" rel="noopener" class="box-border bg-white [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden  p-[50px]  relative no-underline w-full rounded-[16px] opacity-100">
                                     <div data-framer-name="image" class="box-border [-webkit-font-smoothing:inherit] place-content-center items-center flex flex-[1_0_0px] [flex-flow:row] gap-[10px] h-full overflow-hidden p-0 relative w-px filter grayscale opacity-100">
                                         <div data-framer-background-image-wrapper="true" class="box-border [-webkit-font-smoothing:inherit] w-full h-full [border-radius:inherit]">
                                             <img decoding="async" sizes="max(max((min(100vw - 120px, 1320px) - 24px) / 2, 1px) - NaNpx, 1px)" src="https://framerusercontent.com/images/tMA5XWW8f6kxs1wMJcfWiHJmgl0.svg" alt="" class="box-border [-webkit-font-smoothing:inherit] block w-full h-full [border-radius:inherit] object-contain"></img>
@@ -34,7 +35,7 @@ const Investors = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-full">
+                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] b81t1199:gap-4 gap-[24px] h-min overflow-hidden p-0 relative w-full">
                         <div class="box-border [-webkit-font-smoothing:inherit] contents">
                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[200px] relative w-px">
                                 <a data-framer-name="Desktop" href="https://apollocrypto.com/" target="_blank" rel="noopener" class="box-border [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden p-[50px] bg-white relative no-underline w-full rounded-[16px] opacity-100">
@@ -80,7 +81,7 @@ const Investors = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-full">
+                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] b81t1199:gap-4 gap-[24px] h-min overflow-hidden p-0 relative w-full">
                         <div class="box-border [-webkit-font-smoothing:inherit] contents">
                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[200px] relative w-px">
                                 <a data-framer-name="Desktop" href="https://www.coinbase.com/ventures" target="_blank" rel="noopener" class="box-border [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden p-[50px] bg-white relative no-underline w-full rounded-[16px] opacity-100">
@@ -126,7 +127,7 @@ const Investors = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-full">
+                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] b81t1199:gap-4 gap-[24px] h-min overflow-hidden p-0 relative w-full">
                         <div class="box-border [-webkit-font-smoothing:inherit] contents">
                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[200px] relative w-px">
                                 <a data-framer-name="Desktop" href="https://eladgil.com/" target="_blank" rel="noopener" class="box-border [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden p-[50px] bg-white no-underline w-full rounded-[16px] opacity-100">
@@ -172,7 +173,7 @@ const Investors = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-full">
+                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] b81t1199:gap-4 gap-[24px] h-min overflow-hidden p-0 relative w-full">
                         <div class="box-border [-webkit-font-smoothing:inherit] contents">
                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[200px] relative w-px">
                                 <a data-framer-name="Desktop" href="https://www.hack.vc/" target="_blank" rel="noopener" class="box-border [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden p-[50px] bg-white no-underline w-full rounded-[16px] opacity-100">
@@ -218,7 +219,7 @@ const Investors = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-full">
+                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] b81t1199:gap-4 gap-[24px] h-min overflow-hidden p-0 relative w-full">
                         <div class="box-border [-webkit-font-smoothing:inherit] contents">
                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[200px] relative w-px">
                                 <a data-framer-name="Desktop" href="https://www.protofund.com/" target="_blank" rel="noopener" class="box-border [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden p-[50px] bg-white no-underline w-full rounded-[16px] opacity-100">
@@ -264,7 +265,7 @@ const Investors = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] gap-[24px] h-min overflow-hidden p-0 relative w-full">
+                    <div data-framer-name="row" name="row" class="box-border [-webkit-font-smoothing:inherit] items-start flex flex-[0_0_auto] [flex-flow:row] b81t1199:gap-4 gap-[24px] h-min overflow-hidden p-0 relative w-full">
                         <div class="box-border [-webkit-font-smoothing:inherit] contents">
                             <div class="box-border [-webkit-font-smoothing:inherit] flex-[1_0_0px] h-[200px] relative w-px">
                                 <a data-framer-name="Desktop" href="https://ryzelabs.io/" target="_blank" rel="noopener" class="box-border [-webkit-font-smoothing:inherit] flex place-content-center items-center cursor-pointer [flex-flow:row] gap-[10px] h-full overflow-hidden p-[50px] bg-white no-underline w-full rounded-[16px] opacity-100">
@@ -312,6 +313,7 @@ const Investors = () => {
                     </div>
                 </div>
             </div>
+            <Partners />
         </div>
     )
 }
